@@ -1,0 +1,9 @@
+V3 3
+FL "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab2/PWM/PWM.vhd" 2018/01/31.13:05:58 P.20131013
+EN work/PWM 1517421963 \
+      FL "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab2/PWM/PWM.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/PWM/Behavioral 1517421964 \
+      FL "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab2/PWM/PWM.vhd" \
+      EN work/PWM 1517421963

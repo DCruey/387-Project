@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\James\Documents\College Semesters\8 Spring 2018\Junior Design\Lab1\Prog_2\Prog_2.ncd
+OUTFILE=C:\Users\James\Documents\College Semesters\8 Spring 2018\Junior Design\Lab1\Prog_2\Prog_2.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4vq100
+WORKINGDIR=C:\Users\James\Documents\College Semesters\8 Spring 2018\Junior Design\Lab1\Prog_2
+LICENSE=WebPack
+USER_INFO=211207965_0_0_279

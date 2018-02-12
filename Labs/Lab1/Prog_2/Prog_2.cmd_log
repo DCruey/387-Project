@@ -1,0 +1,44 @@
+xst -intstyle ise -ifn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.xst" -ofn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.syr" 
+xst -intstyle ise -ifn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.xst" -ofn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.syr" 
+xst -intstyle ise -ifn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.xst" -ofn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.syr" 
+xst -intstyle ise -ifn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.xst" -ofn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.syr" 
+xst -intstyle ise -ifn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.xst" -ofn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.syr" 
+xst -intstyle ise -ifn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.xst" -ofn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.syr" 
+xst -intstyle ise -ifn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.xst" -ofn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.syr" 
+xst -intstyle ise -ifn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.xst" -ofn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.syr" 
+xst -intstyle ise -ifn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.xst" -ofn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.syr" 
+xst -intstyle ise -ifn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.xst" -ofn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.syr" 
+xst -intstyle ise -ifn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.xst" -ofn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.syr" 
+xst -intstyle ise -ifn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.xst" -ofn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.syr" 
+xst -intstyle ise -ifn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.xst" -ofn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.syr" 
+xst -intstyle ise -ifn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.xst" -ofn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.syr" 
+xst -intstyle ise -ifn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.xst" -ofn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.syr" 
+xst -intstyle ise -ifn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.xst" -ofn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc papilio-duo-logicstart-shield-general(1).ucf -p xc3s100e-vq100-4 "Prog_2.ngc" Prog_2.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc papilio-duo-logicstart-shield-general(1).ucf -p xc3s100e-vq100-4 "Prog_2.ngc" Prog_2.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc papilio-duo-logicstart-shield-general(1).ucf -p xc3s100e-vq100-4 "Prog_2.ngc" Prog_2.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc papilio-duo-logicstart-shield-general(1).ucf -p xc3s100e-vq100-4 "Prog_2.ngc" Prog_2.ngd  
+map -intstyle ise -p xc3s100e-vq100-4 -cm area -ir off -pr off -c 100 -o Prog_2_map.ncd Prog_2.ngd Prog_2.pcf 
+par -w -intstyle ise -ol high -t 1 Prog_2_map.ncd Prog_2.ncd Prog_2.pcf 
+xst -intstyle ise -ifn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.xst" -ofn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BPM7003-Papilio-One-LogicStart-MegaWing-general.ucf -p xc3s100e-vq100-4 "Prog_2.ngc" Prog_2.ngd  
+xst -intstyle ise -ifn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.xst" -ofn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BPM7003-Papilio-One-LogicStart-MegaWing-general.ucf -p xc3s500e-vq100-4 "Prog_2.ngc" Prog_2.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Prog_2_map.ncd Prog_2.ngd Prog_2.pcf 
+par -w -intstyle ise -ol high -t 1 Prog_2_map.ncd Prog_2.ncd Prog_2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Prog_2.twx Prog_2.ncd -o Prog_2.twr Prog_2.pcf -ucf BPM7003-Papilio-One-LogicStart-MegaWing-general.ucf 
+bitgen -intstyle ise -f Prog_2.ut Prog_2.ncd 
+xst -intstyle ise -ifn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.xst" -ofn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.syr" 
+xst -intstyle ise -ifn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.xst" -ofn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.syr" 
+xst -intstyle ise -ifn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.xst" -ofn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BPM7003-Papilio-One-LogicStart-MegaWing-general.ucf -p xc3s500e-vq100-4 "Prog_2.ngc" Prog_2.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Prog_2_map.ncd Prog_2.ngd Prog_2.pcf 
+par -w -intstyle ise -ol high -t 1 Prog_2_map.ncd Prog_2.ncd Prog_2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Prog_2.twx Prog_2.ncd -o Prog_2.twr Prog_2.pcf -ucf BPM7003-Papilio-One-LogicStart-MegaWing-general.ucf 
+bitgen -intstyle ise -f Prog_2.ut Prog_2.ncd 
+xst -intstyle ise -ifn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.xst" -ofn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BPM7003-Papilio-One-LogicStart-MegaWing-general.ucf -p xc3s500e-vq100-4 "Prog_2.ngc" Prog_2.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Prog_2_map.ncd Prog_2.ngd Prog_2.pcf 
+par -w -intstyle ise -ol high -t 1 Prog_2_map.ncd Prog_2.ncd Prog_2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Prog_2.twx Prog_2.ncd -o Prog_2.twr Prog_2.pcf -ucf BPM7003-Papilio-One-LogicStart-MegaWing-general.ucf 
+bitgen -intstyle ise -f Prog_2.ut Prog_2.ncd 

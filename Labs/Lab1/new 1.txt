@@ -1,0 +1,68 @@
+#define F_CPU 1000000UL
+#include <avr/io.h>
+#include <util/delay.h>
+#include <stdio.h>
+
+int main() {
+
+
+    DDRD = 0xFF;
+    PORTD = 0x00;
+    uint8_t inc1 = 0x01;
+
+    uint8_t timerOver = 0;
+    //DDRD = 0xFF;
+    TCNT0 = 0x00;
+    TCCR0B = (1<<CS00) | (1<<CS02);
+
+    DDRC = 0x0F;
+    PINC = 0x00;
+    PORTC = 0x00;
+ //   uint8_t Cpin_5 = (PINC & (1 << PC5));
+    uint8_t inc2 = 0x01;
+    uint8_t prevSw = 0x00;
+ 
+  while(1) {
+
+    while ((TIFR0 & 0x01) == 0); 
+		 TCNT0 = 0x00;
+		 TIFR0 =0x01; //clear timer1 overflow flag		              
+		 timerOver++;		 
+		 if (timerOver>=10)
+		 {
+			// PORTD ^= (0x01 << LED);
+             PORTD = PORTD + inc1;			 
+			 timerOver=0;
+		 } 		 
+    
+    //PORTD = PORTD + mask;
+   // _delay_ms(1000);
+
+    if(PORTD == 0x0F) {
+        PORTD = 0x00;
+
+    }
+    if((PINC & (1<<PC5)) == 0){
+        PORTC = 0x0F;
+    }
+              
+    //PORTC = 0x0F;
+    
+
+//    Cpin_5 = (PINC & (1 << PC5));
+
+/*    if(Cpin_5 == 1){
+        PORTC = 0x0F;
+   }
+*/
+/*    if(prevSw == 0 && Cpin_5 == 1)
+        {
+          PORTC = PORTC + inc2;
+        }
+          prevSw = Cpin_5;
+*/
+  }
+  return 1;
+
+
+}

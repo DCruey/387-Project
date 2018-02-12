@@ -1,0 +1,15 @@
+V3 7
+FL "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/debounce(3).vhd" 2017/11/14.00:26:01 P.20131013
+EN work/debounce 1516911538 \
+      FL "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/debounce(3).vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/debounce/Behavioral 1516911539 \
+      FL "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/debounce(3).vhd" \
+      EN work/debounce 1516911538
+FL "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.vhd" 2018/01/25.15:18:53 P.20131013
+EN work/Prog_2 1516911540 \
+      FL "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Prog_2/Behavioral 1516911541 \
+      FL "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab1/Prog_2/Prog_2.vhd" \
+      EN work/Prog_2 1516911540 CP debounce
