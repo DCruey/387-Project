@@ -1,0 +1,33 @@
+xst -intstyle ise -ifn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab2/PWM/PWM.xst" -ofn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab2/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab2/PWM/PWM.xst" -ofn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab2/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab2/PWM/PWM.xst" -ofn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab2/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab2/PWM/PWM.xst" -ofn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab2/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab2/PWM/PWM.xst" -ofn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab2/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab2/PWM/PWM.xst" -ofn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab2/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab2/PWM/PWM.xst" -ofn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab2/PWM/PWM.syr" 
+xst -intstyle ise -ifn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab2/PWM/PWM.xst" -ofn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab2/PWM/PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc logicstart_upper.ucf -p xc6slx9-tqg144-2 "PWM.ngc" PWM.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PWM_map.ncd PWM.ngd PWM.pcf 
+xst -intstyle ise -ifn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab2/PWM/PWM.xst" -ofn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab2/PWM/PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc logicstart_upper.ucf -p xc3s500e-vq100-4 "PWM.ngc" PWM.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o PWM_map.ncd PWM.ngd PWM.pcf 
+par -w -intstyle ise -ol high -t 1 PWM_map.ncd PWM.ncd PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PWM.twx PWM.ncd -o PWM.twr PWM.pcf -ucf logicstart_upper.ucf 
+bitgen -intstyle ise -f PWM.ut PWM.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc logicstart_upper.ucf -p xc3s500e-vq100-4 "PWM.ngc" PWM.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o PWM_map.ncd PWM.ngd PWM.pcf 
+par -w -intstyle ise -ol high -t 1 PWM_map.ncd PWM.ncd PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PWM.twx PWM.ncd -o PWM.twr PWM.pcf -ucf logicstart_upper.ucf 
+bitgen -intstyle ise -f PWM.ut PWM.ncd 
+xst -intstyle ise -ifn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab2/PWM/PWM.xst" -ofn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab2/PWM/PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc logicstart_upper.ucf -p xc3s500e-vq100-4 "PWM.ngc" PWM.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o PWM_map.ncd PWM.ngd PWM.pcf 
+par -w -intstyle ise -ol high -t 1 PWM_map.ncd PWM.ncd PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PWM.twx PWM.ncd -o PWM.twr PWM.pcf -ucf logicstart_upper.ucf 
+bitgen -intstyle ise -f PWM.ut PWM.ncd 
+xst -intstyle ise -ifn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab2/PWM/PWM.xst" -ofn "C:/Users/James/Documents/College Semesters/8 Spring 2018/Junior Design/Lab2/PWM/PWM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc logicstart_upper.ucf -p xc3s500e-vq100-4 "PWM.ngc" PWM.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o PWM_map.ncd PWM.ngd PWM.pcf 
+par -w -intstyle ise -ol high -t 1 PWM_map.ncd PWM.ncd PWM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PWM.twx PWM.ncd -o PWM.twr PWM.pcf -ucf logicstart_upper.ucf 
+bitgen -intstyle ise -f PWM.ut PWM.ncd 
