@@ -1,7 +1,7 @@
 #define F_CPU 1000000UL
 #include <avr/io.h>
 #include <stdint.h>
-#inlcude <util/delay.h>
+#include <util/delay.h>
 #include <avr/interrupt.h>
 #include <stdio.h>
 
