@@ -11,11 +11,13 @@ void initExtInterrupt0(){ // Rising edge trigger on int0 (PD2)
 	sei();
 }
 
-void checkDistance0(){
+uint8_t checkDistance0(){
 	if(TCNT1 < 5*cent){
 		PORTC |= (1 << PC0);
+		return 1;
 	} else {
 		PORTC &= ~(1 << PC0);
+		return 0;
 	}
 
 	TCNT1 = 0x00;
