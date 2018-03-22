@@ -5,4 +5,4 @@
 #define cent 58 // 58 us per centimeter
 
 void initExtInterrupt0();
-void checkDistance0();
+uint8_t checkDistance0();
