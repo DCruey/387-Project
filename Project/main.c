@@ -30,10 +30,15 @@ int main (){
     TCCR0B |= (1 << pwm_cs0);
     
     while (1){
-//      TOP can be assigned to 0xFF(MAX) or the value in OCR0A
+        if(checkDistance0() == 0){ // checking flag to see if we're within 5cm of obstacle, 0 is clear, 1 is obstructed
+//          TOP can be assigned to 0xFF(MAX) or the value in OCR0A
         
-        OCR0A = 0x0F; //50% cycle (output compare register)
-        OCR0B = 100;//Insert your code here
+            OCR0A = 0x0F; //nearly 100% duty cycle
+            OCR0B = 0x0F;
+        }
+        else{
+            OCR0A = 0x00; //currently set to just stop if obstructed
+            OCR0B = 0x00;
         
     }
     
